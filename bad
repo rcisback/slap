@@ -21,7 +21,7 @@ end
 
 
 
-local Window = OrionLib:MakeWindow({Name = "dc name:yofetass"..gamename, HidePremium = false, SaveConfig = false})
+local Window = OrionLib:MakeWindow({Name = "RoShowcaser Hub v1.1 | "..gamename, HidePremium = false, SaveConfig = false})
 
 -- TABS
 
@@ -68,8 +68,8 @@ MAIN_TAB:AddSlider({
 })
 
 OrionLib:MakeNotification({
-	Name = "dc:yofetass",
-	Content = "Enjoy!"..tick() - started.." seconds.",
+	Name = "Zyer Hub v1.1",
+	Content = "Zyer Hub has been executed in "..tick() - started.." seconds.",
 	Image = "rbxassetid://6710785372",
 	Time = 3
 })
